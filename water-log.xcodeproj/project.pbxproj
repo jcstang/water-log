@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5C5246230B196100CAE47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C5245230B196100CAE47E /* AppDelegate.swift */; };
+		8E5C5248230B196100CAE47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C5247230B196100CAE47E /* ViewController.swift */; };
+		8E5C524B230B196100CAE47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C5249230B196100CAE47E /* Main.storyboard */; };
+		8E5C524E230B196200CAE47E /* water_log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C524C230B196200CAE47E /* water_log.xcdatamodeld */; };
+		8E5C5250230B196400CAE47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C524F230B196400CAE47E /* Assets.xcassets */; };
+		8E5C5253230B196400CAE47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C5251230B196400CAE47E /* LaunchScreen.storyboard */; };
+		8E5C525C230B2B9D00CAE47E /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C525A230B2B9D00CAE47E /* customTableViewCell.swift */; };
+		8E5C525D230B2B9D00CAE47E /* customTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C525B230B2B9D00CAE47E /* customTableViewCell.xib */; };
+		8E5C525F230B4BA800CAE47E /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C525E230B4BA800CAE47E /* detailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E5C5242230B196100CAE47E /* water-log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5C5245230B196100CAE47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E5C5247230B196100CAE47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E5C524A230B196100CAE47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5C524D230B196200CAE47E /* water_log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = water_log.xcdatamodel; sourceTree = "<group>"; };
+		8E5C524F230B196400CAE47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E5C5252230B196400CAE47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E5C5254230B196400CAE47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5C525A230B2B9D00CAE47E /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		8E5C525B230B2B9D00CAE47E /* customTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customTableViewCell.xib; sourceTree = "<group>"; };
+		8E5C525E230B4BA800CAE47E /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5C523F230B196100CAE47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5C5239230B196100CAE47E = {
+			isa = PBXGroup;
+			children = (
+				8E5C5244230B196100CAE47E /* water-log */,
+				8E5C5243230B196100CAE47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5C5243230B196100CAE47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C5242230B196100CAE47E /* water-log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5C5244230B196100CAE47E /* water-log */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C5245230B196100CAE47E /* AppDelegate.swift */,
+				8E5C5247230B196100CAE47E /* ViewController.swift */,
+				8E5C5249230B196100CAE47E /* Main.storyboard */,
+				8E5C524F230B196400CAE47E /* Assets.xcassets */,
+				8E5C5251230B196400CAE47E /* LaunchScreen.storyboard */,
+				8E5C5254230B196400CAE47E /* Info.plist */,
+				8E5C524C230B196200CAE47E /* water_log.xcdatamodeld */,
+				8E5C525A230B2B9D00CAE47E /* customTableViewCell.swift */,
+				8E5C525B230B2B9D00CAE47E /* customTableViewCell.xib */,
+				8E5C525E230B4BA800CAE47E /* detailViewController.swift */,
+			);
+			path = "water-log";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5C5241230B196100CAE47E /* water-log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5C5257230B196400CAE47E /* Build configuration list for PBXNativeTarget "water-log" */;
+			buildPhases = (
+				8E5C523E230B196100CAE47E /* Sources */,
+				8E5C523F230B196100CAE47E /* Frameworks */,
+				8E5C5240230B196100CAE47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "water-log";
+			productName = "water-log";
+			productReference = 8E5C5242230B196100CAE47E /* water-log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5C523A230B196100CAE47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jake Stanger";
+				TargetAttributes = {
+					8E5C5241230B196100CAE47E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 8E5C523D230B196100CAE47E /* Build configuration list for PBXProject "water-log" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E5C5239230B196100CAE47E;
+			productRefGroup = 8E5C5243230B196100CAE47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5C5241230B196100CAE47E /* water-log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5C5240230B196100CAE47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5C5253230B196400CAE47E /* LaunchScreen.storyboard in Resources */,
+				8E5C5250230B196400CAE47E /* Assets.xcassets in Resources */,
+				8E5C525D230B2B9D00CAE47E /* customTableViewCell.xib in Resources */,
+				8E5C524B230B196100CAE47E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5C523E230B196100CAE47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5C5248230B196100CAE47E /* ViewController.swift in Sources */,
+				8E5C5246230B196100CAE47E /* AppDelegate.swift in Sources */,
+				8E5C525C230B2B9D00CAE47E /* customTableViewCell.swift in Sources */,
+				8E5C525F230B4BA800CAE47E /* detailViewController.swift in Sources */,
+				8E5C524E230B196200CAE47E /* water_log.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E5C5249230B196100CAE47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5C524A230B196100CAE47E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E5C5251230B196400CAE47E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5C5252230B196400CAE47E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5C5255230B196400CAE47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E5C5256230B196400CAE47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5C5258230B196400CAE47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36F4KTYB84;
+				INFOPLIST_FILE = "water-log/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jevastang.water-log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E5C5259230B196400CAE47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36F4KTYB84;
+				INFOPLIST_FILE = "water-log/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jevastang.water-log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5C523D230B196100CAE47E /* Build configuration list for PBXProject "water-log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5C5255230B196400CAE47E /* Debug */,
+				8E5C5256230B196400CAE47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5C5257230B196400CAE47E /* Build configuration list for PBXNativeTarget "water-log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5C5258230B196400CAE47E /* Debug */,
+				8E5C5259230B196400CAE47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E5C524C230B196200CAE47E /* water_log.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E5C524D230B196200CAE47E /* water_log.xcdatamodel */,
+			);
+			currentVersion = 8E5C524D230B196200CAE47E /* water_log.xcdatamodel */;
+			path = water_log.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E5C523A230B196100CAE47E /* Project object */;
+}
